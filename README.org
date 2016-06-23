@@ -2,14 +2,11 @@
 #+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="../css/readtheorg.css" />
 
 #+CAPTION: logo
-
-# The maximum height of the logo should be 200 pixels.
-[[img/tabbar.png]]
+Originally from code at https://github.com/evacchi/tabbar-layer
 
 * Table of Contents                                        :TOC_4_org:noexport:
  - [[Description][Description]]
  - [[Install][Install]]
- - [[Key bindings][Key bindings]]
 
 * Description
 This layer does wonderful things:
@@ -22,8 +19,4 @@ To use this contribution add it to your =~/.spacemacs=
   (setq-default dotspacemacs-configuration-layers '(tabbar))
 #+end_src
 
-* Key bindings
 
-| Key Binding     | Description    |
-|-----------------+----------------|
-| ~<SPC> x x x~   | Does thing01   |
