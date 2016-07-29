@@ -56,7 +56,7 @@ which require an initialization must be listed explicitly in the list.")
 
     (tabbar-mode 1)
     (tabbar-mwheel-mode -1)
-    (setq tabbar-buffer-groips-function nil)
+    (setq tabbar-buffer-groups-function nil)
     (dolist (btn '(tabbar-home-button
                    tabbar-scroll-left-button
                    tabbar-scroll-right-button))
